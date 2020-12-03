@@ -70,7 +70,7 @@ body {
     height: 350px;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -92,16 +92,17 @@ body {
     margin-bottom: 20px;
 }
 
-.img-text-wrapper .subtitle {
+.img-text-wrapper .subtitle a {
     transition: 1s;
     font-weight: 600;
     color: transparent;
 }
 
 
-.img-text-wrapper:hover .subtitle {
+.img-text-wrapper:hover .subtitle a {
     font-weight: 600;
-    color: lightseagreen
+    color: lightseagreen;
+    text-decoration: none;
 }
 
 .img-darken {
@@ -117,12 +118,21 @@ body {
 
 .profile-image-wrapper img {
     width: 100%;
+
 }
 
 .profile-content-wrapper {
     padding: 30px;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(94, 92, 92)
 }
 
 .profile-content-wrapper h1 {
-    color: lightseagreen
+    color: rgb(94, 92, 92)
+}
+
+/* Portfolio pages */
+.video-wrapper {
+    margin-left: 50px;
 }
